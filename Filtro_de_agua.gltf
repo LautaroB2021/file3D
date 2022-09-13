@@ -1,0 +1,243 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1058,
+            "type": "VEC3",
+            "max": [
+                27.5,
+                59.0,
+                31.75426483154297
+            ],
+            "min": [
+                -27.5,
+                0.0,
+                -31.75426483154297
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 6348,
+            "type": "SCALAR",
+            "max": [
+                1057
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 988,
+            "type": "VEC3",
+            "max": [
+                25.096311569213868,
+                17.472681045532228,
+                25.100000381469728
+            ],
+            "min": [
+                -25.100000381469728,
+                -195.52731323242188,
+                -25.095218658447267
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 5928,
+            "type": "SCALAR",
+            "max": [
+                987
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1621,
+            "type": "VEC3",
+            "max": [
+                22.99003791809082,
+                24.0,
+                22.973674774169923
+            ],
+            "min": [
+                -22.997018814086915,
+                -176.3273162841797,
+                -22.873985290527345
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 10206,
+            "type": "SCALAR",
+            "max": [
+                1620
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 133932,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 12696,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 12696,
+            "byteLength": 25392,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 38088,
+            "byteLength": 11856,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 49944,
+            "byteLength": 23712,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 73656,
+            "byteLength": 19452,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 93108,
+            "byteLength": 40824,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "Ensamble_filtro_de_aguaMaterial0",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "Ensamble_filtro_de_aguaMaterial1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "Ensamble_filtro_de_aguaMaterial2",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Ensamble_filtro_de_agua",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 1,
+                    "attributes": {
+                        "POSITION": 0
+                    }
+                },
+                {
+                    "mode": 4,
+                    "material": 2,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 2
+                    }
+                },
+                {
+                    "mode": 4,
+                    "material": 3,
+                    "indices": 5,
+                    "attributes": {
+                        "POSITION": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "input.obj",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Ensamble_filtro_de_agua",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
